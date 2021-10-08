@@ -1,0 +1,20 @@
+{
+    "name": "danielson/capture-pokemon",
+    "description": "A game of capturing pokemon passing on houses from directions from the user.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Danielson\\CapturePokemon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danielson Silva",
+            "email": "danielson.xavier@yahoo.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
