@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Danielson\\CapturePokemon\\": "src/"
+            "danielsonsilva\\CapturePokemon\\": "src/"
         }
     },
     "authors": [

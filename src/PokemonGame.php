@@ -1,6 +1,6 @@
 <?php
 
-namespace danielsonsilva\PokemonGame;
+namespace danielsonsilva\CapturePokemon;
 
 /**
  * Class PokemonGame

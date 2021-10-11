@@ -1,6 +1,6 @@
 <?php
 
-namespace danielsonsilva\Position;
+namespace danielsonsilva\CapturePokemon;
 
 /**
  * Class Position
@@ -48,7 +48,7 @@ class Position
      */
     public function goWest(): void
     {
-        $this->x++;
+        $this->x--;
     }
 
     /**
