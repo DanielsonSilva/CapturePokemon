@@ -39,6 +39,10 @@ echo $numberCapturedPokemon2; // 7
 
 # Version History
 
+## v 1.0.1
+
+- Changed some composer.json properties
+
 ## v 1.0.0
 
 - Package danielsonsilva/CapturePokemon created;

@@ -1,7 +1,7 @@
 {
     "name": "danielson/capture-pokemon",
-    "description": "A game of capturing pokemon passing on houses from directions from the user.",
-    "type": "project",
+    "description": "A game of capturing pokemon passing on houses from directions from the user",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -10,7 +10,7 @@
     },
     "authors": [
         {
-            "name": "Danielson Silva",
+            "name": "Danielson Flávio Xavier da Silva",
             "email": "danielson.xavier@yahoo.com"
         }
     ],
