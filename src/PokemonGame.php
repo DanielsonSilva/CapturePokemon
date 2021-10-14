@@ -33,6 +33,7 @@ class PokemonGame {
     public function walkDirections(string $directions): int
     {
         $this->resetMap();
+        $this->resetAsh();
         $this->map[0][0] = 1;
         foreach(str_split($directions) as $direction) {
             switch ($direction) {
@@ -84,6 +85,14 @@ class PokemonGame {
     private function resetMap(): void
     {
         $this->map = array();
+    }
+
+    /**
+     * Resets the ash position
+     */
+    private function resetAsh(): void
+    {
+        $this->ash = new Position();
     }
 
 }

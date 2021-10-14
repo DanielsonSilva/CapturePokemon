@@ -39,6 +39,10 @@ echo $numberCapturedPokemon2; // 7
 
 # Version History
 
+## v 1.1.1
+
+- Reset ash position before walking directions
+
 ## v 1.1.0
 
 - Added private functions: resetMap
