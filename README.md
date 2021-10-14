@@ -39,6 +39,12 @@ echo $numberCapturedPokemon2; // 7
 
 # Version History
 
+## v 1.1.0
+
+- Added private functions: resetMap
+- Added a public function to get the current map from the object
+- Fix a bug when walking two times without reseting the map
+
 ## v 1.0.1
 
 - Changed some composer.json properties

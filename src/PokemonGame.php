@@ -32,6 +32,7 @@ class PokemonGame {
      */
     public function walkDirections(string $directions): int
     {
+        $this->resetMap();
         $this->map[0][0] = 1;
         foreach(str_split($directions) as $direction) {
             switch ($direction) {
@@ -66,6 +67,23 @@ class PokemonGame {
             $totalFound += (is_array($position)) ? count($position, COUNT_RECURSIVE) : 1;
         }
         return $totalFound;
+    }
+
+    /**
+     * get the current map, with the positions that were walked
+     * @return array Current map from the object
+     */
+    public function getMap(): array
+    {
+        return $this->map;
+    }
+
+    /**
+     * Resets the map to the empty array
+     */
+    private function resetMap(): void
+    {
+        $this->map = array();
     }
 
 }
